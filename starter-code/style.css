@@ -50,7 +50,7 @@ nav .menu_left ul li{
     cursor: pointer;
     color: white;
     /* font-weight: 700;   */
-    font-family: "Barlow" sans-seri;
+    font-family: Barlow , sans-seri;
     letter-spacing: 2px;
     font-size: 15px;
     transition: 0.3s;
@@ -60,7 +60,7 @@ nav ul li a{
     text-decoration: none;
     font-size: 1.2rem;
     /* font-weight: 700; */
-    font-family: "Barlow" , sans-seri;
+    font-family: Barlow , sans-seri;
     position: relative;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -778,4 +778,234 @@ nav .line{
 }
 .noneDisplay{
     display: none;
+}
+@media (min-width : 767px) and (max-width : 1200px) {
+    .body_details{
+        background: url(assets/home/background-home-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        width: 100%;
+        gap: 100px;
+    }
+    nav{
+        padding: 30px 28% 30px 46px;
+    }
+    nav .menu_left{
+        gap: 50px;
+        backdrop-filter: blur(10px);
+        background-color: hsla(0, 0%, 100%, .04);
+        padding: 28px;
+        width: 65%;
+        position: absolute;
+        right: 10px;
+    }
+    nav .line{
+        display: none;
+    }
+    .details_txt .title_two{
+        font-size: 8rem;
+        line-height: 8rem;
+        letter-spacing: 8px;
+        margin: 30px 0;
+    }
+    .details_txt .title{
+        font-size: 2.2rem;
+        line-height: 2rem;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .details_txt p{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        text-align: center;
+        width: 66%;
+        margin-bottom: 30px;
+    }
+    nav ul li a{
+        font-size: .8rem;
+    }
+    .details_txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+    .details_btn{
+        width: 270px;
+        height: 270px;
+    }
+    .details_btn a{
+        font-size: 3rem;
+    }
+    .body_planets_moon{
+        background: url(assets/destination/background-destination-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: fit-content;
+    }
+    .details_planet{
+        height: fit-content;
+        width: 100%;
+        align-items: center;
+    }
+    .details_planet .title_planet{
+        margin-bottom: 0;
+        font-size: 2rem;
+    }
+    .details_planet .title_planet span{
+        font-size: 2rem;
+    }
+    .planet{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        gap: 23px;
+    }
+    .text{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .more_info{
+        justify-content: center;
+        margin-left: 0;
+    }
+    .text p{
+        width: 60%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .card p {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+.body_details_crew{
+        background: url(assets/crew/background-crew-tablet.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+    }
+    .body_details_tech{
+        background: url(assets/technology/background-technology-tablet.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+    }
+    .body_crew{
+        height: fit-content;
+    }
+    .body_crew_text{
+        flex-direction: column;
+        align-items: center;
+    }
+    .body_crew .title_planet{
+        margin-bottom: 0;
+        line-height: 3rem;
+        font-size: 2.2rem;
+        letter-spacing: 2px;
+        position: absolute;
+        top: 18%;
+    }
+    .body_crew .title_planet span{
+        font-size: 2.2rem;
+    }
+    .body_crew .text{
+        align-items: center;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .body_crew_text img{
+        width: 25rem;
+        height: 30rem;
+        margin: auto;
+        display: flex;
+    }
+    .lineImage{
+        display: none;
+    }
+    .Bolts{
+        gap: 30px;
+        margin-right: 0px;
+        right: 34px;
+        top: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+    }
+    .body_crew_text .text .title_jop{
+        font-size: 2.2rem;
+    }
+    .body_crew_text .text .title_name{
+        font-size: 4rem;
+    }
+    .body_crew_text .text p{
+        text-align: center;
+        font-size: 1rem;
+        width: 65%;
+    }
+    .body_details_tech{
+        height: fit-content;
+    }
+    .left_content_tech{
+        flex-direction: column;
+    }
+    .body_details_tech_content{
+        flex-direction: column-reverse;
+        width: 86%;
+    }
+    .body_details_tech_img img{
+        width: 69rem;
+        height: 28rem;
+    }
+    .left_content_tech_Bolts{
+        display: flex;
+        flex-direction: row;
+        margin: 20px 0 50px;
+    }
+    .Bolt_tect{
+        width: 80px;
+        height: 80px;
+        font-size: 2.2rem;
+    }
+    .left_content_tech_txt{
+        align-items: center;
+    }
+    .left_content_tech_txt h1{
+        text-align: center;
+        font-size: 3.2rem;
+        margin: 20px 0;
+    }
+    .left_content_tech_txt p{
+        text-align: center;
+        font-size: 1rem;
+        width: 75%;
+    }
+.body_details_tech .title_planet,
+.body_details_tech .title_planet span {
+        line-height: 5rem;
+        margin-bottom: 14%;
+    }
+    .btn_more{
+        display: none !important;
+    }
+    .menu_left_bg{
+        padding: 35% 20px 20px;
+    }
 }
